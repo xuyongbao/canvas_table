@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    html,body{
+      height:100%;
+      width:100%;
+    }
+  </style>
+</head>
+<body>
+  <iframe src="http://www.html5tricks.com/demo/html5-canvas-shine-loading/index.html" frameborder="0" style="width:100%;height:100%;" id="iframe"></iframe>
+  <div>haha 看我你在害怕什么</div>
+  <script>
+    window.onload = function(){
+      var oIframe = document.getElementById("iframe");
+      setTimeout(function(){
+        oIframe.style.display = 'none'
+      },3000)
+    }
+  </script>
+</body>
+</html>
